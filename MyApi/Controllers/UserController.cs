@@ -43,17 +43,5 @@ namespace MyApi.Controllers
         {
             await userRepository.AddAsync(user, CancellationToken.None);
         }
-
-        // PUT: api/User/5
-        [HttpPut("{id}")]
-        public async Task Update(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
