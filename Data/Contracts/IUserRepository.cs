@@ -2,10 +2,11 @@
 using System.Threading.Tasks;
 using Entities;
 
-namespace Data.Repositories
+namespace Data.Contracts
 {
     public interface IUserRepository:IRepository<User>
     {
         Task<User> GetByUserAndPass(string username, string password, CancellationToken cancellationToken);
     }
+
 }

@@ -26,6 +26,7 @@ namespace Entities
         public int Age { get; set; }
         public GenderType Gender { get; set; }
         public bool IsActive { get; set; }
+        public DateTimeOffset? LastLoginDate { get; set; }
 
         public ICollection<Post> Posts { get; set; }
     }
