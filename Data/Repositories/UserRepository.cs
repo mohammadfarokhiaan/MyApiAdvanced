@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Common.Utilities;
 using Microsoft.EntityFrameworkCore;
+using Data.Contracts;
 
 namespace Data.Repositories
 {

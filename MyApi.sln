@@ -10,19 +10,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApi", "MyApi\MyApi.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{3DB4B015-1901-4379-8E06-E426CCB76952}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{CED419D2-628E-45FB-8BFF-960529961B6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{CED419D2-628E-45FB-8BFF-960529961B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A67F5ACD-71F2-4C56-8B2F-6CE791513832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{A67F5ACD-71F2-4C56-8B2F-6CE791513832}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CED419D2-628E-45FB-8BFF-960529961B6C} = {CED419D2-628E-45FB-8BFF-960529961B6C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{5F88E31B-E332-4F12-A124-393EA5BF9F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{5F88E31B-E332-4F12-A124-393EA5BF9F3F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A67F5ACD-71F2-4C56-8B2F-6CE791513832} = {A67F5ACD-71F2-4C56-8B2F-6CE791513832}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFramewrok", "WebFramewrok\WebFramewrok.csproj", "{49DFFBD9-E192-419F-8274-85EADE1BBBF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebFramewrok", "WebFramewrok\WebFramewrok.csproj", "{49DFFBD9-E192-419F-8274-85EADE1BBBF2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5F88E31B-E332-4F12-A124-393EA5BF9F3F} = {5F88E31B-E332-4F12-A124-393EA5BF9F3F}
 	EndProjectSection

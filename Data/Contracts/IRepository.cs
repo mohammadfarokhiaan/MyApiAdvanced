@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data.Repositories
+namespace Data.Contracts
 {
     public interface IRepository<TEntity> where TEntity : class, IEntity
     {
