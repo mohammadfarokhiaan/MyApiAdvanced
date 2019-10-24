@@ -65,7 +65,7 @@ namespace MyApi.Controllers
 
             return Ok();
         }
-
+         
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id, CancellationToken cancellationToken)
